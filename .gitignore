@@ -1,0 +1,10 @@
+node_modules
+logs
+automatic_backups
+packages/nvim/.config/nvim/coc
+packages/gcloud
+packages/coc/.config/coc/extensions
+packages/gh
+packages/stripe
+packages/configstore
+packages/gatsby

@@ -1,0 +1,17 @@
+#!/usr/bin/env zsh
+cd "$HOME/.config/coc"
+
+NVIM_ROOT="$HOME/.config/nvim"
+
+# Create nvim coc symlink dir
+mkdir "$NVIM_ROOT/coc"
+COC_SYMLINK_ROOT="$NVIM_ROOT/coc"
+
+# Create symlinks
+ln -s memo.json "$COC_SYMLINK_ROOT/memo.json"
+cd extensions
+ln -s db.json "$COC_SYMLINK_ROOT/db.json"
+ln -s package.json "$COC_SYMLINK_ROOT/package.json"
+
+# Install coc deps
+npm i

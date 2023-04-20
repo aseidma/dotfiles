@@ -1,0 +1,23 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript",
+    "javascript",
+    "css",
+    "markdown",
+    "html",
+    "prisma",
+    "python",
+    "vue",
+    "typescriptreact"
+  ],
+  "diagnostic.virtualText": true,
+  "diagnostic.checkCurrentLine": false,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--load-plugins=pylint_django.checkers.migrations"
+    // "--errors-only"
+  ],
+  "python.formatting.autopep8Path": "/home/aseidma/.local/bin/autopep8"
+}

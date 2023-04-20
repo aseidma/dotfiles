@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+/bin/bash "$HOME/.dotfiles/scripts/remove_coc_symlinks"
+cd "$HOME/.dotfiles/packages"
+stow --restow -t $HOME */
+/bin/bash "$HOME/.dotfiles/scripts/recreate_coc_symlinks"

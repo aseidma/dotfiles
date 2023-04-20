@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+
+# Delete coc symlinks in nvim folder if they exist
+COC_SYMLINKS_PATH="$HOME/.dotfiles/packages/nvim/.config/nvim/coc"
+if [ -d $COC_SYMLINKS_PATH ]; then
+    echo "Removing coc symlinks..."
+    rm -r $COC_SYMLINKS_PATH
+fi

@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@eslint/create-config": "^0.1.2",
+    "@vitejs/create-app": "^2.2.0",
+    "@vue/cli": "^5.0.4",
+    "create-astro": "^1.2.4",
+    "create-next-app": "^12.3.1",
+    "create-nuxt-app": "^4.0.0",
+    "create-vite": "^4.1.0"
+  }
+}

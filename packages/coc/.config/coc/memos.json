@@ -1,0 +1,1529 @@
+{
+  "coc-eslint|global": {
+    "eslintAlwaysAllowExecution": true
+  },
+  "coc-python|/Users/alex": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee"
+      },
+      "expiry": 1650916407683
+    },
+    "/usr/local/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "2d276682eb18cc00cfc2c4a378bb00eeeda062b0419a84de224ea9bf2c95071be5ad11d4c805faa609230631cb206275674d17748fca60670cca4486e4d3afea"
+      },
+      "expiry": 1650916407754
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9bcfd3f6f3eb945861ce4e5c89cef4427629798e1c7604d3c70535ebb3b21004eaab54521bbe020b66134bf7d4489574efc6ccf5438663336997cde881bbe376"
+      },
+      "expiry": 1646497205701
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9bcfd3f6f3eb945861ce4e5c89cef4427629798e1c7604d3c70535ebb3b21004eaab54521bbe020b66134bf7d4489574efc6ccf5438663336997cde881bbe376"
+      },
+      "expiry": 1646497205704
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9bcfd3f6f3eb945861ce4e5c89cef4427629798e1c7604d3c70535ebb3b21004eaab54521bbe020b66134bf7d4489574efc6ccf5438663336997cde881bbe376"
+      },
+      "expiry": 1646497205703
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "33bfe131adb7b325dbc85a9efb7a25795ac3ecc20902aad02adb4b0435457060e996acac3f7a1236703609dbb0d833b942d4f653b70a062cb88c45ab1f65364f"
+      },
+      "expiry": 1650916407960
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9bcfd3f6f3eb945861ce4e5c89cef4427629798e1c7604d3c70535ebb3b21004eaab54521bbe020b66134bf7d4489574efc6ccf5438663336997cde881bbe376"
+      },
+      "expiry": 1646497205724
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "5d2b999e8d3c717f12b5a6e08dba63d12e66d9d6fb4494271d63c907d62e501df9326fb774987ff453476cdbc34a83af897bd5a791a3c8158262414e27f19253",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/alex/Documents/Code/Learning/django/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.10-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 10,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.10-final"
+      },
+      "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+      "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.10-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 10,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.10-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "33bfe131adb7b325dbc85a9efb7a25795ac3ecc20902aad02adb4b0435457060e996acac3f7a1236703609dbb0d833b942d4f653b70a062cb88c45ab1f65364f",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.9.10 64-bit"
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "33bfe131adb7b325dbc85a9efb7a25795ac3ecc20902aad02adb4b0435457060e996acac3f7a1236703609dbb0d833b942d4f653b70a062cb88c45ab1f65364f"
+      },
+      "expiry": 1650916407799
+    },
+    "/opt/anaconda3/envs/tensorflow/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/anaconda3/envs/tensorflow/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.7-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.7-final"
+        },
+        "sysPrefix": "/opt/anaconda3/envs/tensorflow",
+        "fileHash": "a00b530822de1e396244e24c949e9cf1df4d52298700523278df52f68a5c85ff9ba877e6f88f0d842930f63a2e9265061962eff60eab3b92354ec1263070e98f"
+      },
+      "expiry": 1650916407992
+    },
+    "/opt/anaconda3/envs/vm-csv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/anaconda3/envs/vm-csv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/opt/anaconda3/envs/vm-csv",
+        "fileHash": "9c3cffb5c6354b24fa2183a8aadb9db52f027d5cc573efcf91a7c67ddf50dae574e980b68dfbe4135e7d8eccf7fd987003a4a527223269236983f523f3284be0"
+      },
+      "expiry": 1650916407969
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.10 64-bit",
+        "hash": "33bfe131adb7b325dbc85a9efb7a25795ac3ecc20902aad02adb4b0435457060e996acac3f7a1236703609dbb0d833b942d4f653b70a062cb88c45ab1f65364f-42c125ac41332239eafcbcaa0f71d1ab"
+      },
+      "expiry": 1650916407982
+    },
+    "/opt/local/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.8-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 8,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.8-final"
+        },
+        "sysPrefix": "/opt/local/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "d42475528b0cadc6e73cd8719983163fc414aa095d54c80b5fab969ad297168e992a23b83e463b0dbe093c5bd39457de47e25f80fca21029be1242b7981ec167"
+      },
+      "expiry": 1650916407854
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "0bbdd273ca5dff999d003dd39841b33c2b42b62632e54a6c9d88d13fea32ec652d0fe74142c101bf9c4b1e7030e9f3f75f6d5e6391692e1315a80c7c657004ff"
+      },
+      "expiry": 1650916408215
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "5d2b999e8d3c717f12b5a6e08dba63d12e66d9d6fb4494271d63c907d62e501df9326fb774987ff453476cdbc34a83af897bd5a791a3c8158262414e27f19253",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "429f09fe26c4984dd40658cb401e133f3956d8c6dd4754f0b1b8f2bf85307f4f9e83623851e4b851125ba7310b2c1e3825176bb351b68e24c4a21ca0b853b471",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.8-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 8,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.8-final"
+        },
+        "sysPrefix": "/opt/local/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "d42475528b0cadc6e73cd8719983163fc414aa095d54c80b5fab969ad297168e992a23b83e463b0dbe093c5bd39457de47e25f80fca21029be1242b7981ec167",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.8-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 8,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.8-final"
+        },
+        "sysPrefix": "/opt/local/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "d42475528b0cadc6e73cd8719983163fc414aa095d54c80b5fab969ad297168e992a23b83e463b0dbe093c5bd39457de47e25f80fca21029be1242b7981ec167",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "2d276682eb18cc00cfc2c4a378bb00eeeda062b0419a84de224ea9bf2c95071be5ad11d4c805faa609230631cb206275674d17748fca60670cca4486e4d3afea",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "0bbdd273ca5dff999d003dd39841b33c2b42b62632e54a6c9d88d13fea32ec652d0fe74142c101bf9c4b1e7030e9f3f75f6d5e6391692e1315a80c7c657004ff",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "5d2b999e8d3c717f12b5a6e08dba63d12e66d9d6fb4494271d63c907d62e501df9326fb774987ff453476cdbc34a83af897bd5a791a3c8158262414e27f19253",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "429f09fe26c4984dd40658cb401e133f3956d8c6dd4754f0b1b8f2bf85307f4f9e83623851e4b851125ba7310b2c1e3825176bb351b68e24c4a21ca0b853b471",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.8-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 8,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.8-final"
+        },
+        "sysPrefix": "/opt/local/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "d42475528b0cadc6e73cd8719983163fc414aa095d54c80b5fab969ad297168e992a23b83e463b0dbe093c5bd39457de47e25f80fca21029be1242b7981ec167",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "2d276682eb18cc00cfc2c4a378bb00eeeda062b0419a84de224ea9bf2c95071be5ad11d4c805faa609230631cb206275674d17748fca60670cca4486e4d3afea",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "0bbdd273ca5dff999d003dd39841b33c2b42b62632e54a6c9d88d13fea32ec652d0fe74142c101bf9c4b1e7030e9f3f75f6d5e6391692e1315a80c7c657004ff",
+        "type": "Unknown"
+      }
+    ],
+    "/opt/anaconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/opt/anaconda3",
+        "fileHash": "1800fbcb5ba68e2168c1473f2ce5b47bce19e029a272bb9ec71a8ed52bb7b01d85c7c3b95a57f3f2294a43296787d6c57550583a4cdc8741f3ae699943632f96"
+      },
+      "expiry": 1650916408984
+    },
+    "CONDA_ENVIRONMENTS": {
+      "data": [
+        {
+          "name": "base",
+          "path": "/opt/anaconda3"
+        },
+        {
+          "name": "tensorflow",
+          "path": "/opt/anaconda3/envs/tensorflow"
+        },
+        {
+          "name": "vm-csv",
+          "path": "/opt/anaconda3/envs/vm-csv"
+        }
+      ]
+    },
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/opt/anaconda3/envs/tensorflow/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.7-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.7-final"
+        },
+        "sysPrefix": "/opt/anaconda3/envs/tensorflow",
+        "fileHash": "a00b530822de1e396244e24c949e9cf1df4d52298700523278df52f68a5c85ff9ba877e6f88f0d842930f63a2e9265061962eff60eab3b92354ec1263070e98f",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/anaconda3/envs/tensorflow",
+        "envName": "tensorflow"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/anaconda3/envs/vm-csv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/opt/anaconda3/envs/vm-csv",
+        "fileHash": "9c3cffb5c6354b24fa2183a8aadb9db52f027d5cc573efcf91a7c67ddf50dae574e980b68dfbe4135e7d8eccf7fd987003a4a527223269236983f523f3284be0",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/anaconda3/envs/vm-csv",
+        "envName": "vm-csv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [
+      {
+        "architecture": 3,
+        "path": "/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/opt/anaconda3",
+        "fileHash": "1800fbcb5ba68e2168c1473f2ce5b47bce19e029a272bb9ec71a8ed52bb7b01d85c7c3b95a57f3f2294a43296787d6c57550583a4cdc8741f3ae699943632f96",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/anaconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/anaconda3/envs/tensorflow/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.7-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.7-final"
+        },
+        "sysPrefix": "/opt/anaconda3/envs/tensorflow",
+        "fileHash": "a00b530822de1e396244e24c949e9cf1df4d52298700523278df52f68a5c85ff9ba877e6f88f0d842930f63a2e9265061962eff60eab3b92354ec1263070e98f",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/anaconda3/envs/tensorflow",
+        "envName": "tensorflow"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/anaconda3/envs/vm-csv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/opt/anaconda3/envs/vm-csv",
+        "fileHash": "9c3cffb5c6354b24fa2183a8aadb9db52f027d5cc573efcf91a7c67ddf50dae574e980b68dfbe4135e7d8eccf7fd987003a4a527223269236983f523f3284be0",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/anaconda3/envs/vm-csv",
+        "envName": "vm-csv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/opt/anaconda3",
+        "fileHash": "1800fbcb5ba68e2168c1473f2ce5b47bce19e029a272bb9ec71a8ed52bb7b01d85c7c3b95a57f3f2294a43296787d6c57550583a4cdc8741f3ae699943632f96",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/anaconda3",
+        "envName": "base"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/opt/anaconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit ('base': conda)",
+        "hash": "1800fbcb5ba68e2168c1473f2ce5b47bce19e029a272bb9ec71a8ed52bb7b01d85c7c3b95a57f3f2294a43296787d6c57550583a4cdc8741f3ae699943632f96-9b0a166db706dcd0a7ec051144c1fc42"
+      },
+      "expiry": 1650922555540
+    },
+    "/opt/anaconda3/envs/tensorflow/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.7 64-bit ('tensorflow': conda)",
+        "hash": "a00b530822de1e396244e24c949e9cf1df4d52298700523278df52f68a5c85ff9ba877e6f88f0d842930f63a2e9265061962eff60eab3b92354ec1263070e98f-65f04e4e164b852d9e73db74effc5af5"
+      },
+      "expiry": 1650922555542
+    },
+    "/opt/anaconda3/envs/vm-csv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.10 64-bit ('vm-csv': conda)",
+        "hash": "9c3cffb5c6354b24fa2183a8aadb9db52f027d5cc573efcf91a7c67ddf50dae574e980b68dfbe4135e7d8eccf7fd987003a4a527223269236983f523f3284be0-9da240eed4709f7eba2cc6806dcdade0"
+      },
+      "expiry": 1650922555543
+    },
+    "/opt/local/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.8 64-bit",
+        "hash": "d42475528b0cadc6e73cd8719983163fc414aa095d54c80b5fab969ad297168e992a23b83e463b0dbe093c5bd39457de47e25f80fca21029be1242b7981ec167-d7183e1e4222be38102448df080b3e74"
+      },
+      "expiry": 1650916408819
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.10 64-bit",
+        "hash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee-25ae0fee04426a8d45de395a63eb6191"
+      },
+      "expiry": 1650916408821
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "9bcfd3f6f3eb945861ce4e5c89cef4427629798e1c7604d3c70535ebb3b21004eaab54521bbe020b66134bf7d4489574efc6ccf5438663336997cde881bbe376-32cab14181b5dba39cc36a77b2f6a7c3"
+      },
+      "expiry": 1646498136695
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.9 64-bit",
+        "hash": "0bbdd273ca5dff999d003dd39841b33c2b42b62632e54a6c9d88d13fea32ec652d0fe74142c101bf9c4b1e7030e9f3f75f6d5e6391692e1315a80c7c657004ff-70b89885b57dfae68a97f9a9b4fc65d2"
+      },
+      "expiry": 1650916408822
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9-67f655005007a67696ad6923199829e8"
+      },
+      "expiry": 1639126579452
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.10-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 10,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.10-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee",
+      "type": "Unknown",
+      "displayName": "Python 3.9.10 64-bit"
+    },
+    "/opt/anaconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1800fbcb5ba68e2168c1473f2ce5b47bce19e029a272bb9ec71a8ed52bb7b01d85c7c3b95a57f3f2294a43296787d6c57550583a4cdc8741f3ae699943632f96",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/anaconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/opt/anaconda3",
+          "fileHash": "1800fbcb5ba68e2168c1473f2ce5b47bce19e029a272bb9ec71a8ed52bb7b01d85c7c3b95a57f3f2294a43296787d6c57550583a4cdc8741f3ae699943632f96",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/opt/anaconda3",
+          "envName": "base",
+          "displayName": "Python 3.7.6 64-bit ('base': conda)"
+        }
+      },
+      "expiry": 1650922555547
+    },
+    "/opt/anaconda3/envs/tensorflow/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a00b530822de1e396244e24c949e9cf1df4d52298700523278df52f68a5c85ff9ba877e6f88f0d842930f63a2e9265061962eff60eab3b92354ec1263070e98f",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/anaconda3/envs/tensorflow/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.7-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.7-final"
+          },
+          "sysPrefix": "/opt/anaconda3/envs/tensorflow",
+          "fileHash": "a00b530822de1e396244e24c949e9cf1df4d52298700523278df52f68a5c85ff9ba877e6f88f0d842930f63a2e9265061962eff60eab3b92354ec1263070e98f",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/opt/anaconda3/envs/tensorflow",
+          "envName": "tensorflow",
+          "displayName": "Python 3.7.7 64-bit ('tensorflow': conda)"
+        }
+      },
+      "expiry": 1650922555551
+    },
+    "/opt/anaconda3/envs/vm-csv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9c3cffb5c6354b24fa2183a8aadb9db52f027d5cc573efcf91a7c67ddf50dae574e980b68dfbe4135e7d8eccf7fd987003a4a527223269236983f523f3284be0",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/anaconda3/envs/vm-csv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.10-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.10-final"
+          },
+          "sysPrefix": "/opt/anaconda3/envs/vm-csv",
+          "fileHash": "9c3cffb5c6354b24fa2183a8aadb9db52f027d5cc573efcf91a7c67ddf50dae574e980b68dfbe4135e7d8eccf7fd987003a4a527223269236983f523f3284be0",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/opt/anaconda3/envs/vm-csv",
+          "envName": "vm-csv",
+          "displayName": "Python 3.7.10 64-bit ('vm-csv': conda)"
+        }
+      },
+      "expiry": 1650922555555
+    },
+    "/opt/local/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d42475528b0cadc6e73cd8719983163fc414aa095d54c80b5fab969ad297168e992a23b83e463b0dbe093c5bd39457de47e25f80fca21029be1242b7981ec167",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/local/bin/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.8-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 8,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.8-final"
+          },
+          "sysPrefix": "/opt/local/Library/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "d42475528b0cadc6e73cd8719983163fc414aa095d54c80b5fab969ad297168e992a23b83e463b0dbe093c5bd39457de47e25f80fca21029be1242b7981ec167",
+          "type": "Unknown",
+          "displayName": "Python 3.9.8 64-bit"
+        }
+      },
+      "expiry": 1650916408828
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.10-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.10-final"
+          },
+          "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee",
+          "type": "Unknown",
+          "displayName": "Python 3.9.10 64-bit"
+        }
+      },
+      "expiry": 1650916408831
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9bcfd3f6f3eb945861ce4e5c89cef4427629798e1c7604d3c70535ebb3b21004eaab54521bbe020b66134bf7d4489574efc6ccf5438663336997cde881bbe376",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "9bcfd3f6f3eb945861ce4e5c89cef4427629798e1c7604d3c70535ebb3b21004eaab54521bbe020b66134bf7d4489574efc6ccf5438663336997cde881bbe376",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1646498136722
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "0bbdd273ca5dff999d003dd39841b33c2b42b62632e54a6c9d88d13fea32ec652d0fe74142c101bf9c4b1e7030e9f3f75f6d5e6391692e1315a80c7c657004ff",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.9-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.9-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "0bbdd273ca5dff999d003dd39841b33c2b42b62632e54a6c9d88d13fea32ec652d0fe74142c101bf9c4b1e7030e9f3f75f6d5e6391692e1315a80c7c657004ff",
+          "type": "Unknown",
+          "displayName": "Python 3.8.9 64-bit"
+        }
+      },
+      "expiry": 1650916408833
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1639126579505
+    },
+    "ProposeLSBanner": false,
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.10-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 10,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.10-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "bc9bafeb0772959e9742fe0c61a5bb06760e6f2dd9bf1a703bbd236615707e77e34d7b1bd0e1ac793b3af9183f99e1bd7e2509dfb43f2f2c504775c43f030aee",
+      "type": "Unknown",
+      "displayName": "Python 3.9.10 64-bit"
+    },
+    "/Users/alex/Documents/Code/Learning/django/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "429f09fe26c4984dd40658cb401e133f3956d8c6dd4754f0b1b8f2bf85307f4f9e83623851e4b851125ba7310b2c1e3825176bb351b68e24c4a21ca0b853b471"
+      },
+      "expiry": 1650916407684
+    },
+    "/Users/alex/Documents/Code/Learning/django/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "5d2b999e8d3c717f12b5a6e08dba63d12e66d9d6fb4494271d63c907d62e501df9326fb774987ff453476cdbc34a83af897bd5a791a3c8158262414e27f19253"
+      },
+      "expiry": 1650916407685
+    },
+    "/Users/alex/Documents/Code/Learning/django/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/alex/Documents/Code/Learning/django/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+        "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06"
+      },
+      "expiry": 1650916407686
+    },
+    "/Users/alex/Documents/Code/Learning/django/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.10 64-bit",
+        "hash": "5d2b999e8d3c717f12b5a6e08dba63d12e66d9d6fb4494271d63c907d62e501df9326fb774987ff453476cdbc34a83af897bd5a791a3c8158262414e27f19253-2c1e1701166017da026b82413781aa37"
+      },
+      "expiry": 1650916407793
+    },
+    "/Users/alex/Documents/Code/Learning/django/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5d2b999e8d3c717f12b5a6e08dba63d12e66d9d6fb4494271d63c907d62e501df9326fb774987ff453476cdbc34a83af897bd5a791a3c8158262414e27f19253",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/alex/Documents/Code/Learning/django/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.10-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.10-final"
+          },
+          "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+          "fileHash": "5d2b999e8d3c717f12b5a6e08dba63d12e66d9d6fb4494271d63c907d62e501df9326fb774987ff453476cdbc34a83af897bd5a791a3c8158262414e27f19253",
+          "type": "Unknown",
+          "displayName": "Python 3.9.10 64-bit"
+        }
+      },
+      "expiry": 1650916407815
+    },
+    "/Users/alex/Documents/Code/Learning/django/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.10 64-bit",
+        "hash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06-8ff7155dbc0615ee30e1e45c4b797358"
+      },
+      "expiry": 1650916408817
+    },
+    "/Users/alex/Documents/Code/Learning/django/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/alex/Documents/Code/Learning/django/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.10-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.10-final"
+          },
+          "sysPrefix": "/Users/alex/Documents/Code/Learning/django",
+          "fileHash": "0aab6b564ae5d1e9924b303362b252b68806a315330d96903b6dddbf4a0298e9f11cb6554b537a8387e2be361ab1a562f099f2753d0985741a5f618c7b950a06",
+          "type": "Unknown",
+          "displayName": "Python 3.9.10 64-bit"
+        }
+      },
+      "expiry": 1650916408826
+    }
+  },
+  "@yaegassy/coc-volar|/Users/alex/Documents/Code/RedThread/repo": {
+    "coc-volar-ts-server-path": "/Users/alex/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "@yaegassy/coc-volar|/Users/alex/Documents/Code/freelancing/vaan-majestro": {
+    "coc-volar-ts-server-path": "/Users/alex/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "@yaegassy/coc-volar|/Users/alex/Documents/Code/freelancing/vm-sales/vm-sales": {
+    "coc-volar-ts-server-path": "/Users/alex/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "@yaegassy/coc-volar|/Users/alex/Documents/Code/freelancing/vm-sales": {
+    "coc-volar-ts-server-path": "/Users/alex/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "@yaegassy/coc-volar|/Users/alex/Documents/Code/freelancing/fiverr/artfabian/meta-managers": {
+    "coc-volar-ts-server-path": "/Users/alex/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "@yaegassy/coc-volar|/Users/alex/Documents/Code/freelancing/fiverr/artfabian/meta-manager": {
+    "coc-volar-ts-server-path": "/Users/alex/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "@yaegassy/coc-volar|/Users/alex/Documents/Code/freelancing/fiverr/artfabian/updated": {
+    "coc-volar-ts-server-path": "/Users/alex/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "coc-python|/Users/alex/Documents/Code/Learning/django/tutorial_api": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:955b6482cc9834b03796de5539ad1507": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:955b6482cc9834b03796de5539ad1507": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/alex/Documents/Code/Learning/django/tutorial_api": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.10-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 10,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.10-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "33bfe131adb7b325dbc85a9efb7a25795ac3ecc20902aad02adb4b0435457060e996acac3f7a1236703609dbb0d833b942d4f653b70a062cb88c45ab1f65364f",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.9.10 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "@yaegassy/coc-volar|/home/aseidma/freelance_projects/dbmi_frontend": {
+    "coc-volar-ts-server-path": "/home/aseidma/.dotfiles/packages/coc/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "coc-rust-analyzer|global": {
+    "release": "2023-03-06"
+  }
+}
