@@ -125,11 +125,11 @@ require'nvim-treesitter.configs'.setup {
 EOF
 
 " Transparency
-lua <<EOF
-require("transparent").setup({
-    \ enable = true,
-  \ })
-EOF
+" lua <<EOF
+" require("transparent").setup({
+"     \ enable = true,
+"   \ })
+" EOF
 
 " Coc mappings
 inoremap <silent><expr> <TAB>
