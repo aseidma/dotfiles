@@ -24,12 +24,11 @@ call plug#begin(stdpath('data').'/plugged')
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'rev': '0.1.0' }
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'xiyaowong/nvim-transparent'
 Plug 'neovim/nvim-lspconfig'
 Plug 'steelsojka/pears.nvim'
 Plug 'nvim-treesitter/nvim-treesitter-refactor'
-Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'posva/vim-vue'
 Plug 'windwp/nvim-autopairs'
@@ -43,6 +42,21 @@ Plug 'ThePrimeagen/harpoon'
 Plug 'wuelnerdotexe/vim-astro'
 Plug 'github/copilot.vim'
 Plug 'tpope/vim-fugitive'
+
+" Needed for prettier. NOTE: null-ls is deprecated since August 2023
+" Watch out for alternatives/updates once available
+Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'MunifTanjim/prettier.nvim'
+
+Plug 'williamboman/mason.nvim', {'do': ':MasonUpdate'} 
+Plug 'williamboman/mason-lspconfig.nvim'               
+
+" Autocompletion
+Plug 'hrsh7th/nvim-cmp'     
+Plug 'hrsh7th/cmp-nvim-lsp' 
+Plug 'L3MON4D3/LuaSnip'     
+
+Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v2.x'}
 call plug#end()
 
 " Colorscheme
@@ -57,24 +71,94 @@ lua require('Comment').setup()
 " Astro Config
 let g:astro_typescript = 'enable'
 
-" Telescope 
+" LSP
+lua <<EOF
+require("mason").setup()
+local lsp = require('lsp-zero').preset({})
+
+lsp.on_attach(function(client, bufnr)
+  -- see :help lsp-zero-keybindings
+  -- to learn the available actions
+  lsp.default_keymaps({buffer = bufnr})
+end)
+
+lsp.setup()
+
+local cmp = require('cmp')
+cmp.setup({
+    mapping = {
+        ['<C-Space>'] = cmp.mapping.complete(),
+        ['<C-y>'] = cmp.mapping.confirm({ select = true }),
+        ['<C-e>'] = cmp.mapping.close(),
+        ['<CR>'] = cmp.mapping.confirm({ select = true }),
+    }
+    })
+EOF
+
+" Prettier formatting "
+lua <<EOF
+local null_ls = require("null-ls")
+
+local group = vim.api.nvim_create_augroup("lsp_format_on_save", { clear = false })
+local event = "BufWritePre" -- or "BufWritePost"
+local async = event == "BufWritePost"
+
+null_ls.setup({
+  on_attach = function(client, bufnr)
+    if client.supports_method("textDocument/formatting") then
+      vim.keymap.set("n", "<Leader>p", function()
+        vim.lsp.buf.format({ bufnr = vim.api.nvim_get_current_buf() })
+      end, { buffer = bufnr, desc = "[lsp] format" })
+
+      -- format on save
+      vim.api.nvim_clear_autocmds({ buffer = bufnr, group = group })
+      vim.api.nvim_create_autocmd(event, {
+        buffer = bufnr,
+        group = group,
+        callback = function()
+          vim.lsp.buf.format({ bufnr = bufnr, async = async })
+        end,
+        desc = "[lsp] format on save",
+      })
+    end
+
+    if client.supports_method("textDocument/rangeFormatting") then
+      vim.keymap.set("x", "<Leader>p", function()
+        vim.lsp.buf.format({ bufnr = vim.api.nvim_get_current_buf() })
+      end, { buffer = bufnr, desc = "[lsp] format" })
+    end
+  end,
+})
+
+local prettier = require("prettier")
+prettier.setup()
+EOF
+
+nmap <Leader>p <cmd>Prettier<cr>
+
+" Telescope "
 lua <<EOF
 local telescope = require('telescope')
 telescope.setup {
-            \ pickers = {
-                \ find_files = {
-        \ hidden = true,
-      \ }
-      \ }
-      \ }
+             pickers = {
+                 find_files = {
+         hidden = true,
+       }
+       }
+       }
 telescope.load_extension('env')
 telescope.load_extension('harpoon')
 EOF
+
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 nnoremap <leader>gs <cmd>Telescope grep_string<cr>
+
+" Diagnostics
+nnoremap <leader>i <cmd>lua vim.diagnostic.open_float()<cr>
+nnoremap <leader>kk <cmd>lua vim.lsp.buf.hover()<cr>
 
 " Harpoon
 nnoremap <leader>pf <cmd>lua require("harpoon.mark").add_file()<cr>
@@ -114,56 +198,15 @@ require'nvim-treesitter.configs'.setup {
   },
   additional_vim_regex_highlighting = true,
   refactor = {
-              \ smart_rename = {
-          \ enable = true,
+               smart_rename = {
+           enable = true,
   keymaps = {
-          \ smart_rename = "grr",
-        \ }
-        \ }
-        \ }
+           smart_rename = "grr",
+         }
+         }
+         }
 }
 EOF
-
-" Transparency
-" lua <<EOF
-" require("transparent").setup({
-"     \ enable = true,
-"   \ })
-" EOF
-
-" Coc mappings
-inoremap <silent><expr> <TAB>
-      \ coc#pum#visible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
-" Use <c-space> to trigger completion.
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
-
-" Make <CR> auto-select the first completion item and notify coc.nvim to
-" format on enter, <cr> could be remapped by other vim plugin
-inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-" Jump between diagnostics
-nmap <silent> ,g <Plug>(coc-diagnostic-prev)
-nmap <silent> ;g <Plug>(coc-diagnostic-next)
 
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
@@ -181,19 +224,4 @@ function! s:show_documentation()
   endif
 endfunction
 
-" Highlight the symbol and its references when holding the cursor.
-autocmd CursorHold * silent call CocActionAsync('highlight')
-
-" Symbol renaming.
-nmap <leader>rn <Plug>(coc-rename)
-
-" Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
-
-" Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
-
-" Add `:Format` command to format current buffer.
-command! -nargs=0 Format :call CocAction('format')
 
