@@ -42,6 +42,13 @@ Plug 'ThePrimeagen/harpoon'
 Plug 'wuelnerdotexe/vim-astro'
 Plug 'github/copilot.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'wittyjudge/gruvbox-material.nvim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'beauwilliams/statusline.lua'
+Plug 'folke/trouble.nvim'
+Plug 'tpope/vim-unimpaired'
+Plug 'stevearc/oil.nvim'
 
 " Needed for prettier. NOTE: null-ls is deprecated since August 2023
 " Watch out for alternatives/updates once available
@@ -60,7 +67,8 @@ Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v2.x'}
 call plug#end()
 
 " Colorscheme
-colorscheme tokyonight-moon
+" colorscheme gruvbox-material
+colorscheme tokyonight
 
 " Remaps
 let mapleader = " "
@@ -71,9 +79,43 @@ lua require('Comment').setup()
 " Astro Config
 let g:astro_typescript = 'enable'
 
+lua <<EOF
+require'nvim-web-devicons'.setup {
+    default = true;
+}
+EOF
+
+" Go Delve
+let g:go_debug_substitute_paths = [['/app', '/home/aseidma/oofone/ash/atlas']]
+
+
+" Oil
+lua <<EOF
+require('oil').setup()
+EOF
+
+nnoremap - <cmd>Oil<cr>
+
 " LSP
 lua <<EOF
+local lspconfig = require('lspconfig')
+local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 require("mason").setup()
+require('mason-lspconfig').setup({
+    ensure_installed = {
+        "eslint",
+        "html",
+        "cssls",
+    },
+    handlers = {
+        function(server)
+          lspconfig[server].setup({
+            capabilities = lsp_capabilities,
+          })
+        end,
+    }
+})
 local lsp = require('lsp-zero').preset({})
 
 lsp.on_attach(function(client, bufnr)
@@ -103,7 +145,14 @@ local group = vim.api.nvim_create_augroup("lsp_format_on_save", { clear = false 
 local event = "BufWritePre" -- or "BufWritePost"
 local async = event == "BufWritePost"
 
+local sources = {
+  -- python
+  null_ls.builtins.formatting.black,
+  null_ls.builtins.formatting.isort,
+}
+
 null_ls.setup({
+  sources = sources,
   on_attach = function(client, bufnr)
     if client.supports_method("textDocument/formatting") then
       vim.keymap.set("n", "<Leader>p", function()
@@ -131,10 +180,27 @@ null_ls.setup({
 })
 
 local prettier = require("prettier")
-prettier.setup()
+prettier.setup({
+  bin = 'prettierd',
+  filetypes = {
+    "css",
+    "graphql",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "less",
+    "markdown",
+    "scss",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yaml",
+  },
+})
 EOF
 
-nmap <Leader>p <cmd>Prettier<cr>
+nmap <leader>p <cmd>Prettier<cr>
 
 " Telescope "
 lua <<EOF
