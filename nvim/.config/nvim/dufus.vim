@@ -68,6 +68,7 @@ call plug#end()
 
 " Colorscheme
 " colorscheme gruvbox-material
+" colorscheme catppuccin-latte
 colorscheme tokyonight
 
 " Remaps
@@ -104,18 +105,34 @@ local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities()
 require("mason").setup()
 require('mason-lspconfig').setup({
     ensure_installed = {
+        "ts_ls",
         "eslint",
         "html",
         "cssls",
     },
-    handlers = {
-        function(server)
-          lspconfig[server].setup({
-            capabilities = lsp_capabilities,
-          })
-        end,
-    }
 })
+
+require'lspconfig'.ts_ls.setup{
+init_options = {
+    plugins = {
+        {
+                name = "@vue/typescript-plugin",
+                location = "/home/aseidma/.nvm/versions/node/v20.10.0/lib/node_modules/@vue/typescript-plugin",
+                languages = {
+                    "typescript",
+                    "javascript",
+                    "vue",
+                },
+                }
+        }
+    },
+    filetypes = {
+        "javascript",
+        "typescript",
+        "vue",
+    }
+    }
+
 local lsp = require('lsp-zero').preset({})
 
 lsp.on_attach(function(client, bufnr)
