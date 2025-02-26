@@ -9,9 +9,25 @@ require("config.options")
 -- Load Keymaps
 require("config.keymaps")
 
+-- Treesitter
+local ts = require('nvim-treesitter.configs')
+ts.setup{
+    ensure_installed = "all",
+    sync_install = false,
+    highlight = {
+        enable = true,
+        disable = { "" }
+    },
+    indent = {
+        enable = true,
+        disable = { "yaml" }
+    }
+}
+
 -- Add cmp_nvim_lsp capabilities settings to lspconfig
 -- This should be executed before you configure any language server
 local lspconfig = require('lspconfig')
+local util = require "lspconfig/util"
 local lspconfig_defaults = lspconfig.util.default_config
 lspconfig_defaults.capabilities = vim.tbl_deep_extend(
   'force',
@@ -48,6 +64,25 @@ require('mason-lspconfig').setup({
     end,
   },
 })
+
+-- Go Setup
+lspconfig.gopls.setup {
+    -- on_attach = require('mason-lspconfig').on_attach,
+    -- capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities()),
+    cmd = { "gopls" },
+    filetypes = { "go", "gomod", "gowork", "gotmpl" },
+    root_dir = util.root_pattern("go.mod", ".git", "go.work"),
+    settings = {
+        gopls = {
+            completeUnimported = true,
+            usePlaceholders = true,
+            analyses = {
+                unusedparams = true,
+            }
+        }
+    }
+}
+
 
 -- Vue Setup
 local vue_language_server_path = '/home/aseidma/.nvm/versions/node/v20.10.0/lib/node_modules/@vue/typescript-plugin'
